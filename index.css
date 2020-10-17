@@ -241,6 +241,16 @@ main h2{
 }
 .Youtube{
     margin: 30px;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.Youtube iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 .Youtube:after{
     content: "";
@@ -326,6 +336,10 @@ footer{
     #top .Texti{
         position: static;
         width: 10vw;
+    }
+
+    .blind{
+        padding: 20px 30px;
     }
 }
 
